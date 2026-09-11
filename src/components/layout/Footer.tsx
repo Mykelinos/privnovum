@@ -36,9 +36,8 @@ export default function Footer() {
         </div>
       </div>
       <div className="border-t border-[#1a1a1a] py-4 text-center">
-        <p className="tag-label text-gray-600">© {new Date().getFullYear()} NOVUM STORE. ALL RIGHTS RESERVED.</p>
+        <p className="tag-label text-gray-600">&copy; {new Date().getFullYear()} NOVUM STORE. ALL RIGHTS RESERVED.</p>
       </div>
     </footer>
   );
 }
-
