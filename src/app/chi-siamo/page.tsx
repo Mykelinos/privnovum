@@ -10,18 +10,18 @@ export default function AboutPage() {
         <section>
           <h2 className="text-2xl font-bold text-white uppercase mb-4">Oltre la Moda</h2>
           <p className="leading-relaxed">
-            NOVUM non è solo un brand, è un esperimento sartoriale. Nato nelle strade ma progettato con la precisione di un atelier, cerchiamo di colmare il divario tra l'abbigliamento utilitaristico e l'alta moda. La nostra estetica dark non è una semplice scelta cromatica, ma una tela vuota su cui esaltare forme, silhouette e texture.
+            NOVUM non e solo un brand, e un esperimento sartoriale. Nato nelle strade ma progettato con la precisione di un atelier, cerchiamo di colmare il divario tra l'abbigliamento utilitaristico e l'alta moda. La nostra estetica dark non e una semplice scelta cromatica, ma una tela vuota su cui esaltare forme, silhouette e texture.
           </p>
         </section>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-8 border-y tag-border my-12">
           <div className="border tag-border p-6 bg-[#0a0a0a]">
-            <h3 className="tag-label text-white mb-4 border-b border-[#333] pb-2">01 / Artigianalità</h3>
-            <p className="text-sm text-gray-400">Ogni capo è cucito e rifinito a mano. Non produciamo in massa, ma creiamo lotti limitatissimi per garantire un controllo qualità maniacale.</p>
+            <h3 className="tag-label text-white mb-4 border-b border-[#333] pb-2">01 / Artigianalita</h3>
+            <p className="text-sm text-gray-400">Ogni capo e cucito e rifinito a mano. Non produciamo in massa, ma creiamo lotti limitatissimi per garantire un controllo qualita maniacale.</p>
           </div>
           <div className="border tag-border p-6 bg-[#0a0a0a]">
-            <h3 className="tag-label text-white mb-4 border-b border-[#333] pb-2">02 / Esclusività</h3>
-            <p className="text-sm text-gray-400">Il concetto di "Pezzo Unico". Crediamo che i vestiti debbano avere un'identità. Ogni etichetta è numerata a mano per certificare l'autenticità.</p>
+            <h3 className="tag-label text-white mb-4 border-b border-[#333] pb-2">02 / Esclusivita</h3>
+            <p className="text-sm text-gray-400">Il concetto di "Pezzo Unico". Crediamo che i vestiti debbano avere un'identita. Ogni etichetta e numerata a mano per certificare l'autenticita.</p>
           </div>
         </div>
 
@@ -35,4 +35,3 @@ export default function AboutPage() {
     </div>
   );
 }
-

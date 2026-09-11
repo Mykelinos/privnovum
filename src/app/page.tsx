@@ -1,6 +1,5 @@
 import ProductCard from "@/components/product/ProductCard";
 
-// Mockup data for products
 const products = [
   {
     id: "prod_01",
@@ -43,15 +42,12 @@ const products = [
 export default function Home() {
   return (
     <div className="flex flex-col gap-24">
-      {/* Hero Section */}
       <section className="relative h-[80vh] w-full flex items-center justify-center overflow-hidden border-b tag-border">
-        {/* Background Overlay */}
         <div className="absolute inset-0 bg-[#050505] z-0">
           <div className="absolute inset-0 opacity-20" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1550684376-efcbd6e3f031?q=80&w=2000&auto=format&fit=crop')", backgroundSize: "cover", backgroundPosition: "center", filter: "grayscale(100%)" }}></div>
           <div className="absolute inset-0 bg-gradient-to-t from-[#050505] to-transparent"></div>
         </div>
         
-        {/* Hero Content */}
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto flex flex-col items-center">
           <div className="border tag-border px-3 py-1 mb-6">
             <span className="tag-label text-gray-400">Collezione 01</span>
@@ -67,7 +63,6 @@ export default function Home() {
           </a>
         </div>
         
-        {/* Decorative elements */}
         <div className="absolute bottom-8 left-8 hidden md:block">
           <p className="tag-label text-gray-500">EST. 2026</p>
         </div>
@@ -76,12 +71,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Collection Section */}
       <section id="collection" className="container mx-auto px-4 pb-24">
         <div className="flex flex-col md:flex-row justify-between items-end mb-12 border-b tag-border pb-4">
           <div>
             <h2 className="text-3xl font-bold uppercase tracking-tighter">Archivio</h2>
-            <p className="text-gray-500 mt-2">Disponibilità limitata. Nessun restock.</p>
+            <p className="text-gray-500 mt-2">Disponibilita limitata. Nessun restock.</p>
           </div>
           <div className="mt-4 md:mt-0">
             <span className="tag-label px-2 py-1 border tag-border text-gray-400">4 Pezzi Totali</span>
@@ -97,4 +91,3 @@ export default function Home() {
     </div>
   );
 }
-

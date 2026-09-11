@@ -1,8 +1,6 @@
 export default function ContactPage() {
   return (
     <div className="container mx-auto px-4 py-24 max-w-5xl flex flex-col md:flex-row gap-16">
-      
-      {/* Contact Info */}
       <div className="md:w-1/3">
         <h1 className="text-4xl font-bold uppercase tracking-tighter mb-4">Contatti</h1>
         <p className="text-gray-400 mb-12">Hai domande sui nostri capi, spedizioni o collaborazioni? Scrivici.</p>
@@ -26,7 +24,6 @@ export default function ContactPage() {
         </div>
       </div>
 
-      {/* Contact Form */}
       <div className="md:w-2/3 border tag-border p-8 bg-[#0a0a0a]">
         <h2 className="text-xl font-bold uppercase tracking-tight mb-8 border-b tag-border pb-4">Invia un messaggio</h2>
         <form className="space-y-6">
@@ -64,4 +61,3 @@ export default function ContactPage() {
     </div>
   );
 }
-

@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Instagram, Twitter } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -15,15 +14,14 @@ export default function Footer() {
         <div className="flex flex-col gap-2">
           <h3 className="tag-label text-gray-400 mb-2">Social</h3>
           <div className="flex items-center gap-4">
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
-              <Instagram size={20} />
+            <a href="#" className="text-gray-400 hover:text-white transition-colors uppercase text-sm font-bold">
+              IG
             </a>
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
-              <Twitter size={20} />
+            <a href="#" className="text-gray-400 hover:text-white transition-colors uppercase text-sm font-bold">
+              X
             </a>
-            {/* TikTok Icon placeholder using SVG since Lucide doesn't have official TikTok sometimes */}
-            <a href="#" className="text-gray-400 hover:text-white transition-colors">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/></svg>
+            <a href="#" className="text-gray-400 hover:text-white transition-colors uppercase text-sm font-bold">
+              TK
             </a>
           </div>
         </div>

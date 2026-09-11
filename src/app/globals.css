@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 :root {
-  --background: #050505; /* Nero profondo */
-  --foreground: #f4f4f4; /* Bianco gesso */
-  --accent: #2a2a2a; /* Grigio metallico/scuro */
+  --background: #050505;
+  --foreground: #f4f4f4;
+  --accent: #2a2a2a;
 }
 
 @theme inline {
@@ -20,15 +20,10 @@ body {
   font-family: var(--font-sans), sans-serif;
 }
 
-/* Framing the Tag - Concept Utilities */
-.tag-border {
-  border: 1px solid var(--accent);
-}
-
+.tag-border { border: 1px solid var(--accent); }
 .tag-label {
   font-family: var(--font-mono), monospace;
   font-size: 0.75rem;
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
-

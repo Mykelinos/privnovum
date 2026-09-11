@@ -27,7 +27,7 @@ export default function CartDrawer() {
         <div className="flex-grow overflow-y-auto p-6 flex flex-col gap-6">
           {cart.length === 0 ? (
             <div className="flex flex-col items-center justify-center h-full text-gray-500">
-              <p className="mb-4">Il tuo carrello è vuoto.</p>
+              <p className="mb-4">Il tuo carrello Ã¨ vuoto.</p>
               <button 
                 onClick={() => setIsCartOpen(false)}
                 className="px-6 py-3 border tag-border hover:bg-white hover:text-black transition-colors uppercase text-sm tracking-widest"
@@ -52,7 +52,7 @@ export default function CartDrawer() {
                       <span className="text-sm w-4 text-center">{item.quantity}</span>
                       <button onClick={() => updateQuantity(item.id, item.quantity + 1)} className="text-gray-400 hover:text-white"><Plus size={14}/></button>
                     </div>
-                    <p className="font-bold">€{item.price.toFixed(2)}</p>
+                    <p className="font-bold">&euro;{item.price.toFixed(2)}</p>
                   </div>
                 </div>
                 <button 
@@ -70,7 +70,7 @@ export default function CartDrawer() {
           <div className="p-6 border-t tag-border bg-[#050505]">
             <div className="flex justify-between items-center mb-6">
               <span className="uppercase text-sm tracking-widest text-gray-400">Totale</span>
-              <span className="text-2xl font-bold">€{cartTotal.toFixed(2)}</span>
+              <span className="text-2xl font-bold">&euro;{cartTotal.toFixed(2)}</span>
             </div>
             <button 
               className="w-full py-4 bg-white text-black font-bold uppercase tracking-widest hover:bg-gray-200 transition-colors flex justify-center items-center gap-2"
@@ -88,4 +88,3 @@ export default function CartDrawer() {
     </>
   );
 }
-
