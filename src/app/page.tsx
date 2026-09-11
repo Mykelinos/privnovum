@@ -56,7 +56,7 @@ export default function Home() {
             Redefining <br/> The Underground
           </h1>
           <p className="text-gray-400 max-w-lg mb-10 text-lg">
-            Pezzi unici, materiali tecnici e un'estetica brutalista. Esplora la nuova collezione limitata.
+            Pezzi unici, materiali tecnici e un&apos;estetica brutalista. Esplora la nuova collezione limitata.
           </p>
           <a href="#collection" className="bg-white text-black px-8 py-4 uppercase font-bold tracking-widest hover:bg-gray-200 transition-colors">
             Scopri i capi
@@ -75,7 +75,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row justify-between items-end mb-12 border-b tag-border pb-4">
           <div>
             <h2 className="text-3xl font-bold uppercase tracking-tighter">Archivio</h2>
-            <p className="text-gray-500 mt-2">Disponibilita limitata. Nessun restock.</p>
+            <p className="text-gray-500 mt-2">Disponibilita&apos; limitata. Nessun restock.</p>
           </div>
           <div className="mt-4 md:mt-0">
             <span className="tag-label px-2 py-1 border tag-border text-gray-400">4 Pezzi Totali</span>

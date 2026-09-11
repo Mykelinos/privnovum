@@ -27,7 +27,7 @@ export default function CartDrawer() {
         <div className="flex-grow overflow-y-auto p-6 flex flex-col gap-6">
           {cart.length === 0 ? (
             <div className="flex flex-col items-center justify-center h-full text-gray-500">
-              <p className="mb-4">Il tuo carrello è vuoto.</p>
+              <p className="mb-4">Il tuo carrello e&apos; vuoto.</p>
               <button 
                 onClick={() => setIsCartOpen(false)}
                 className="px-6 py-3 border tag-border hover:bg-white hover:text-black transition-colors uppercase text-sm tracking-widest"

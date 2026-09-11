@@ -7,7 +7,7 @@ export default function Footer() {
         <div>
           <h2 className="text-2xl font-bold tracking-tighter uppercase mb-2">NOVUM</h2>
           <p className="text-gray-500 text-sm max-w-xs">
-            Streetwear d'alta gamma. Pezzi unici, design artigianale e stile dark underground.
+            Streetwear d&apos;alta gamma. Pezzi unici, design artigianale e stile dark underground.
           </p>
         </div>
         
